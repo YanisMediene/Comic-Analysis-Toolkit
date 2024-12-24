@@ -1,0 +1,9 @@
+{
+  "image": "example_comic.jpg",
+  "annotations": [
+    {"type": "panel", "coordinates": [100, 50, 400, 300]},
+    {"type": "balloon", "coordinates": [150, 80, 350, 200]},
+    {"type": "character", "coordinates": [200, 100, 300, 250]},
+    {"type": "text", "content": "Hello, world!", "coordinates": [160, 90, 340, 180]}
+  ]
+}
