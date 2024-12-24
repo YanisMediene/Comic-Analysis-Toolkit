@@ -92,15 +92,24 @@ This repository provides a comprehensive pipeline for detecting and analyzing el
 .
 ├── data
 │   ├── raw        # Raw comic images
+│   │   └── example_comic.jpg
 │   ├── annotated  # Annotated datasets
+│   │   └── example_annotations.json
 │   └── models     # Pre-trained and fine-tuned models
+│       └── yolo_model.pth
 ├── src
 │   ├── detection  # Scripts for panel, balloon, text, character detection
+│   │   └── panel_detection.py
 │   ├── training   # Model training and validation scripts
+│   │   └── train_panels.py
 │   ├── analysis   # Relation analysis and indexing
+│   │   └── relationship_analysis.py
 │   └── utils      # Helper functions
+│       └── data_loader.py
 ├── notebooks      # Jupyter notebooks for experimentation
+│   └── detection_experiments.ipynb
 ├── docs           # Documentation files
+│   └── example_results.png
 └── README.md      # This file
 ```
 
@@ -117,7 +126,7 @@ This repository provides a comprehensive pipeline for detecting and analyzing el
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YanisMediene/comic-analysis-toolkit.git
+   git clone https://github.com/yourusername/comic-analysis-toolkit.git
    cd comic-analysis-toolkit
    ```
 2. Install dependencies:
