@@ -126,7 +126,7 @@ This repository provides a comprehensive pipeline for detecting and analyzing el
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/comic-analysis-toolkit.git
+   git clone https://github.com/YanisMediene/Comic-Analysis-Toolkit.git
    cd comic-analysis-toolkit
    ```
 2. Install dependencies:
